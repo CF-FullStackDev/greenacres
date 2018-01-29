@@ -18,7 +18,7 @@
 </div>
 
 @include('layouts.header')
-<div id="start"></div>!
+<div id="start"></div>
 <div class="container-fluid video-header">
     <video autoplay loop preload playsinline muted poster="{{asset('assets/video/sample-video.jpg')}}">
         <source src="{{asset('assets/video/get-qoute2.mp4')}}" type="video/mp4">
